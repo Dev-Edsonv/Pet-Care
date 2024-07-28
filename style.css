@@ -4,23 +4,52 @@
     box-sizing: border-box;
     /* font-family: "Lato", sans-serif; */
     font-family: "Poppins", sans-serif;
+    background: rgb(220, 220, 220, 0.4);
+}
+
+.principal {
+    width: 50vw;
+    padding-left: 35px;
 }
 
 #logo {
     width: 80px;
     background-color: #FF8C00;
-    margin: 27px 0 26px 30px;
     border-radius: 23px;
+    margin-top: 27px;
+    margin-bottom: 26px;
+
 }
 
 h2 {
-
+    font-size: 51px;
+    width: 40vw;
+    line-height: 58px;
+    color: rgb(28, 28, 28, 0.8);
+    margin-bottom: 30px;
+    margin-top: 35px;
 }
 
 .paragraphInitial {
+    font-size: 18px;
+    width: 39vw;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(28, 28, 28, 0.8);
+}
 
+.select {
+    margin-top: 45px;
+    height: 161px;
 }
 
 h4 {
+    font-size: 24px;
+    color: #696969;
+    font-weight: 700;
+}
 
+.animals {
+    
 }
