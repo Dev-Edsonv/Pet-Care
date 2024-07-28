@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: "Lato", sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+#logo {
+    width: 80px;
+    background-color: #FF8C00;
+    margin: 27px 0 26px 30px;
+    border-radius: 23px;
+}
+
+h2 {
+
+}
+
+.paragraphInitial {
+
+}
+
+h4 {
+
 }
