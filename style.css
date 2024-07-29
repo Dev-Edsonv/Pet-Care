@@ -51,5 +51,60 @@ h4 {
 }
 
 .animals {
-    
+    width: 89px;
+    margin: 18px 16px 10px 0;
+    border-radius: 52px;
+    cursor: grab;
+}
+
+.search {
+    background-color: rgb(192, 192, 192);
+    width: 38vw;
+    height: 58px;
+    border-radius: 24px;
+}
+
+input {
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 30px;
+    background-color: transparent;
+}
+
+.dropOff:focus {
+    outline: none;
+    background-color: #B0C4DE;
+    border-radius: 12px;
+}
+
+.pickUp:focus {
+    outline: none;
+    background-color: rgb(233, 18, 18, 0.5);
+    border-radius: 12px;
+}
+
+button {
+    width: 107px;
+    height: 58px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 255, 0, 0.9);
+    position: relative;
+    left: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: #008000;
+    color: #F5DEB3;
+    opacity: 1;
 }
