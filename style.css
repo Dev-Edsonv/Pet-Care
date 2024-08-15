@@ -73,6 +73,10 @@ input {
     background-color: transparent;
 }
 
+.placeholder::placeholder {
+    color: black;
+}
+
 .dropOff:focus {
     outline: none;
     background-color: #B0C4DE;
