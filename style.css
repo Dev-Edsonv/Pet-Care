@@ -8,8 +8,23 @@
 }
 
 .principal {
-    width: 50vw;
     padding-left: 35px;
+    display: inline-block;
+    width: 50%;
+}
+
+#seccoundMain {
+    display: inline-block;
+    background: #F08080;
+    height: 94vh;
+    position: absolute;
+    right: 80px;
+    top: 15px;
+    width: 50%;
+    border-top-left-radius: 115px;
+    border-top-right-radius: 56px;
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 115px;
 }
 
 #logo {
@@ -22,8 +37,8 @@
 }
 
 h2 {
-    font-size: 51px;
-    width: 40vw;
+    font-size: 35px;
+    width: 26vw;
     line-height: 58px;
     color: rgb(28, 28, 28, 0.8);
     margin-bottom: 30px;
@@ -31,8 +46,8 @@ h2 {
 }
 
 .paragraphInitial {
-    font-size: 18px;
-    width: 39vw;
+    font-size: 15px;
+    width: 30vw;
     line-height: 35px;
     letter-spacing: 1px;
     font-weight: 500;
@@ -51,7 +66,7 @@ h4 {
 }
 
 .animals {
-    width: 89px;
+    width: 70px;
     margin: 18px 16px 10px 0;
     border-radius: 52px;
     cursor: grab;
@@ -69,7 +84,7 @@ input {
     height: 40px;
     font-size: 16px;
     text-align: center;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     background-color: transparent;
 }
 
@@ -111,4 +126,23 @@ button:active {
     background-color: #008000;
     color: #F5DEB3;
     opacity: 1;
+}
+
+header {
+    padding-top: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.imageMain {
+    width: 330px;
+    margin-left: 15px;
+    border-radius: 50px;
 }
