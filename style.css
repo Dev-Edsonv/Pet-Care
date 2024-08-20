@@ -4,7 +4,6 @@
     box-sizing: border-box;
     /* font-family: "Lato", sans-serif; */
     font-family: "Poppins", sans-serif;
-    background: rgb(220, 220, 220, 0.4);
 }
 
 .principal {
@@ -15,7 +14,7 @@
 
 #seccoundMain {
     display: inline-block;
-    background: #F08080;
+    background-color: #F08080;
     height: 94vh;
     position: absolute;
     right: 80px;
@@ -74,7 +73,7 @@ h4 {
 
 .search {
     background-color: rgb(192, 192, 192);
-    width: 38vw;
+    width: 35vw;
     height: 58px;
     border-radius: 24px;
 }
@@ -139,6 +138,12 @@ a {
     color: white;
     font-size: 15px;
     font-weight: 600;
+    transition: text-decoration-color 1.5s ease-in-out;
+}
+
+a:hover {
+    text-decoration: 3px underline rgba(255, 0, 35);
+    text-decoration-style: wavy;
 }
 
 .imageMain {
