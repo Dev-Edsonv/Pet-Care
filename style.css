@@ -27,63 +27,62 @@
 }
 
 #logo {
-    width: 80px;
+    width: 55px;
     background-color: #FF8C00;
-    border-radius: 23px;
+    border-radius: 15px;
     margin-top: 27px;
-    margin-bottom: 26px;
 
 }
 
 h2 {
-    font-size: 35px;
-    width: 26vw;
+    font-size: 37px;
+    width: 27vw;
     line-height: 58px;
     color: rgb(28, 28, 28, 0.8);
-    margin-bottom: 30px;
-    margin-top: 35px;
+    margin-top: 26px;
+    font-weight: 900;
 }
 
 .paragraphInitial {
     font-size: 15px;
-    width: 30vw;
+    width: 33vw;
     line-height: 35px;
     letter-spacing: 1px;
-    font-weight: 500;
-    color: rgb(28, 28, 28, 0.8);
+    font-weight: 600;
+    color: rgb(28, 28, 28, 0.5);
+    margin-top: 20px;
 }
 
 .select {
-    margin-top: 45px;
-    height: 161px;
+    margin-top: 30px;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 23px;
     color: #696969;
     font-weight: 700;
 }
 
 .animals {
-    width: 70px;
-    margin: 18px 16px 10px 0;
-    border-radius: 52px;
+    width: 55px;
+    margin: 18px 25px 10px 0;
+    border-radius: 15px;
     cursor: grab;
 }
 
 .search {
     background-color: rgb(192, 192, 192);
-    width: 35vw;
-    height: 58px;
+    width: 452px;
+    height: 45px;
     border-radius: 24px;
+    margin-top: 20px;
 }
 
 input {
     border: none;
-    height: 40px;
-    font-size: 16px;
+    height: 37px;
+    font-size: 14px;
     text-align: center;
-    /* margin-right: 30px; */
     background-color: transparent;
 }
 
@@ -104,14 +103,12 @@ input {
 }
 
 button {
-    width: 107px;
-    height: 58px;
+    width: 91px;
+    height: 44px;
     border: none;
     border-radius: 20px;
-    background-color: rgb(0, 255, 0, 0.9);
-    position: relative;
-    left: 23px;
-    font-size: 15px;
+    background-color: rgb(0, 255, 0, 0.8);
+    font-size: 12px;
     font-weight: 500;
     color: white;
     cursor: pointer;
@@ -125,29 +122,4 @@ button:active {
     background-color: #008000;
     color: #F5DEB3;
     opacity: 1;
-}
-
-header {
-    padding-top: 30px;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    margin-right: 25px;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    transition: text-decoration-color 1.5s ease-in-out;
-}
-
-a:hover {
-    text-decoration: 3px underline rgba(255, 0, 35);
-    text-decoration-style: wavy;
-}
-
-.imageMain {
-    width: 330px;
-    margin-left: 15px;
-    border-radius: 50px;
 }
