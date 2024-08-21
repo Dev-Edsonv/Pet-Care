@@ -9,17 +9,17 @@
 .principal {
     padding-left: 35px;
     display: inline-block;
-    width: 50%;
+    width: 500px;
 }
 
 #seccoundMain {
     display: inline-block;
     background-color: #F08080;
     height: 94vh;
-    position: absolute;
+    /* position: absolute;
     right: 80px;
-    top: 15px;
-    width: 50%;
+    top: 15px; */
+    width: 500px;
     border-top-left-radius: 115px;
     border-top-right-radius: 56px;
     border-bottom-left-radius: 56px;
