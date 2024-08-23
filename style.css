@@ -12,20 +12,6 @@
     width: 500px;
 }
 
-#seccoundMain {
-    display: inline-block;
-    background-color: #F08080;
-    height: 94vh;
-    /* position: absolute;
-    right: 80px;
-    top: 15px; */
-    width: 500px;
-    border-top-left-radius: 115px;
-    border-top-right-radius: 56px;
-    border-bottom-left-radius: 56px;
-    border-bottom-right-radius: 115px;
-}
-
 #logo {
     width: 55px;
     background-color: #FF8C00;
@@ -80,10 +66,13 @@ h4 {
 
 input {
     border: none;
-    height: 37px;
+    height: 40px;
     font-size: 14px;
     text-align: center;
     background-color: transparent;
+    margin-left: 2px;
+    width: 166px;
+    border-radius: 20px;
 }
 
 .placeholder::placeholder {
@@ -93,13 +82,11 @@ input {
 .dropOff:focus {
     outline: none;
     background-color: #B0C4DE;
-    border-radius: 12px;
 }
 
 .pickUp:focus {
     outline: none;
     background-color: rgb(233, 18, 18, 0.5);
-    border-radius: 12px;
 }
 
 button {
@@ -112,6 +99,7 @@ button {
     font-weight: 500;
     color: white;
     cursor: pointer;
+    margin-left: 15px;
 }
 
 button:hover {
@@ -122,4 +110,45 @@ button:active {
     background-color: #008000;
     color: #F5DEB3;
     opacity: 1;
+}
+
+#seccoundMain {
+    display: inline-block;
+    background-color: #F08080;
+    height: 90%;
+    position: absolute;
+    right: 80px;
+    top: 15px;
+    width: 600px;
+    border-radius: 58px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: 3px underline ;
+    transition: text-decoration-color 2s;
+    text-decoration-color: rgba(255,165,0);
+    text-decoration-style: wavy;
+    cursor: grab;
+}
+
+.imageMain {
+    width: 300px;
+    border-bottom-left-radius: 58px;
+    margin-top: 16px;
 }
