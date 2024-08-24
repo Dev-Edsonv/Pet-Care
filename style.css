@@ -130,7 +130,7 @@ header {
     margin-top: 30px;
 }
 
-a {
+.myLinks {
     font-size: 14px;
     text-decoration: none;
     text-align: center;
@@ -139,10 +139,10 @@ a {
     font-weight: 500;
 }
 
-a:hover {
-    text-decoration: 3px underline ;
+.myLinks:hover {
+    text-decoration: 3px underline;
     transition: text-decoration-color 2s;
-    text-decoration-color: rgba(255,165,0);
+    text-decoration-color: rgba(255, 165, 0);
     text-decoration-style: wavy;
     cursor: grab;
 }
@@ -151,4 +151,94 @@ a:hover {
     width: 300px;
     border-bottom-left-radius: 58px;
     margin-top: 16px;
+}
+
+footer {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.also {
+    display: inline-block;
+    width: 250px;
+    height: 115px;
+}
+
+.also h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-style: italic;
+}
+
+.also p {
+    width: 160px;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+#boarding,
+#liveVideo,
+#training,
+#grooming {
+    background-color: rgb(0, 255, 0, 0.6);
+    height: 150px;
+    margin-left: 32px;
+    border: 2px solid rgba(255, 165, 0);
+    border-radius: 90px 20px 90px 20px;
+    box-shadow: 1px -2px 0px 5px rgba(255, 165, 0);
+}
+
+#veterinary {
+    background-image: url(./img/dog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    margin-left: 32px;
+    border: 2px solid rgba(255, 165, 0);
+    border-radius: 90px 20px 90px 20px;
+    box-shadow: 1px -2px 0px 5px rgba(255, 165, 0);
+}
+
+#veterinary h3 {
+    margin-top: 90px;
+    box-shadow: -1px -2px 13px 21px rgb(65, 105, 225, 0.7);
+    background-color: rgb(65, 105, 225, 0.7);
+    width: 144px;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#veterinary a {
+    text-decoration: none;
+}
+
+#veterinary a:hover {
+    text-decoration: 5px underline;
+    transition: text-decoration-color 2s;
+    text-decoration-color: rgba(255, 165, 0);
+    text-decoration-style: wavy;
+    cursor: grab;
+}
+
+#liveVideo {
+    background-color: #F08080;
+
+}
+
+#training {
+    background-color: 	#9370DB	;
+
+}
+
+#grooming {
+    background-color: #20B2AA;
+    margin-right: 30px;
 }
