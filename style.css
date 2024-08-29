@@ -234,11 +234,29 @@ footer {
 }
 
 #training {
-    background-color: 	#9370DB	;
+    background-color: #9370DB;
 
 }
 
 #grooming {
     background-color: #20B2AA;
     margin-right: 30px;
+}
+
+@media screen and (max-width: 667px) {
+    #logo {
+        width: 65px;
+    }
+
+    h2 {
+        font-size: 26px;
+        width: 260px;
+        line-height: 40px;
+    }
+
+
+
+    #seccoundMain {
+        position: static;
+    }
 }
