@@ -254,6 +254,50 @@ footer {
         line-height: 40px;
     }
 
+    .paragraphInitial {
+        font-size: 13px;
+        width: 314px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: rgb(28, 28, 28, 0.8);
+        margin-top: 20px;
+    }
+
+    .select {
+        margin-top: 22px;
+        width: 350px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+
+    .animals {
+        width: 41px;
+        border-radius: 8px;
+    }
+
+    .search {
+        width: 305px;
+    }
+
+    input {
+        border: none;
+        height: 40px;
+        font-size: 12px;
+        text-align: center;
+        background-color: transparent;
+        margin-left: 10px;
+        width: 87px;
+        border-radius: 20px; width: 87px;
+    }
+
+    button {
+        width: 87px;
+        font-size: 12px;
+    }
+
 
 
     #seccoundMain {
