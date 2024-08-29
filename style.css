@@ -244,6 +244,12 @@ footer {
 }
 
 @media screen and (max-width: 667px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    
     #logo {
         width: 65px;
     }
