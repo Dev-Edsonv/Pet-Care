@@ -245,63 +245,70 @@ footer {
 
 @media screen and (max-width: 667px) {
 
-    body {
+    /* body {
         display: flex;
         justify-content: center;
+    } */
+
+    .principal {
+
     }
     
     #logo {
-        width: 65px;
+        width: 40px;
     }
 
     h2 {
-        font-size: 26px;
-        width: 260px;
-        line-height: 40px;
+        font-size: 14px;
+        width: 149px;
+        line-height: 25px;
     }
 
     .paragraphInitial {
-        font-size: 13px;
-        width: 314px;
-        line-height: 28px;
-        letter-spacing: 1px;
+        font-size: 10px;
+        width: 217px;
+        line-height: 20px;
         font-weight: 600;
         color: rgb(28, 28, 28, 0.8);
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .select {
-        margin-top: 22px;
-        width: 350px;
+        margin-top: 19px;
+        width: 208px;
     }
 
     h4 {
-        font-size: 19px;
+        font-size: 14px;
     }
 
     .animals {
-        width: 41px;
+        width: 27px;
         border-radius: 8px;
+        margin-right: 10px;
     }
 
     .search {
-        width: 305px;
+        width: 190px;
+        height: 40px;
+        margin-top: 15px;
     }
 
     input {
         border: none;
-        height: 40px;
-        font-size: 12px;
-        text-align: center;
+        height: 30px;
+        font-size: 10px;
         background-color: transparent;
         margin-left: 10px;
-        width: 87px;
-        border-radius: 20px; width: 87px;
+        border-radius: 20px;
+        width: 50px;
     }
 
     button {
-        width: 87px;
-        font-size: 12px;
+        width: 59px;
+        font-size: 10px;
+        margin-left: 2px;
+        height: 40px;
     }
 
 
