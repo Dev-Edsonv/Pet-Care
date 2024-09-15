@@ -153,6 +153,10 @@ header {
     margin-top: 16px;
 }
 
+.menu {
+    display: none;
+}
+
 footer {
     margin-top: 75px;
     display: flex;
@@ -243,19 +247,17 @@ footer {
     margin-right: 30px;
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 500px) {
 
     /* body {
         display: flex;
         justify-content: center;
     } */
 
-    .principal {
+    /* .principal {} */
 
-    }
-    
     #logo {
-        width: 40px;
+        width: 50px;
     }
 
     h2 {
@@ -314,6 +316,41 @@ footer {
 
 
     #seccoundMain {
-        position: static;
+        position: relative;
+        width: 400px;
+        margin-left: 96px;
+        margin-right: auto;
+        display: block;
+        height: 328px;
+        margin-top: 39px;
+    }
+
+    header {
+        width: 188px;
+        position: absolute;
+        display: block;
+        right: 29px;
+        margin-top: 35px;
+    }
+
+    a {
+        display: block;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .imageMain {
+        display: block;
+        width: 117px;
+    }
+
+    .menu {
+        display: block;
+        width: 28px;
+        transition: all 0.5s ease-in-out;
+        position: absolute;
+        right: 111px;
+        margin-top: 16px;
     }
 }
